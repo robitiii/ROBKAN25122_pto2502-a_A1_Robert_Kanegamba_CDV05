@@ -245,3 +245,69 @@ main {
   font-size: 0.875rem;
   color: #888888;
 }
+@media (max-width: 1024px) {
+  .home-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .home-text h2 {
+    font-size: 3rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem 1.5rem;
+  }
+
+  .header-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav {
+    gap: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .home-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .home-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+
+  .projects-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .projects-content h2 {
+    font-size: 2rem;
+  }
+
+  .project-card {
+    padding: 2rem;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer {
+    padding: 3rem 1.5rem;
+  }
+}
