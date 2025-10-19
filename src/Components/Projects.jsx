@@ -5,12 +5,14 @@ const Projects = () => {
     {
       title: 'Yebopets Booking  Platform',
       description: 'A platform that allows young dog owners to book trusted and verified pet sitters for their furry friends with ease and confidence.',
-      link: 'https://yebopets.co.za/'
+      link: 'https://yebopets.co.za/',
+      github: 'https://github.com/robitiii/YeboPetsProject'
     },
     {
       title: 'Website design for a local business',
       description: 'A modern and responsive website designed for a local businesses to showcase their products and attract more customers.',
-      link: 'https://robq.online/'
+      link: 'https://robq.online/',
+      github: 'https://github.com/robitiii/robqtech.online'
     }
   ];
   return (
@@ -24,6 +26,7 @@ const Projects = () => {
               title={project.title}
               description={project.description}
               link={project.link}
+              github={project.github}
             />
           ))}
         </div>

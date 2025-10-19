@@ -1,4 +1,4 @@
-import RobKane from '../../assets/RobKane.jpg';
+import RobKane from '../assets/RobKane.jpg';
 
 const Home = () => {
   return (
