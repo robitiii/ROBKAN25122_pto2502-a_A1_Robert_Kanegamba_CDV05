@@ -77,3 +77,137 @@ body {
 .nav-link:not(:last-child):hover {
   color: #000000;
 }
+main {
+  flex: 1;
+}
+
+.home-section {
+  padding: 4rem 3rem;
+  background-color: #ffffff;
+  min-height: 600px;
+}
+
+.home-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.home-text h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.intro-text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #1a1a1a;
+  margin-bottom: 2.5rem;
+  max-width: 500px;
+}
+
+.view-work-btn {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #1a1a1a;
+  cursor: pointer;
+  padding: 0;
+  font-weight: 400;
+  transition: transform 0.2s;
+}
+
+.view-work-btn:hover {
+  transform: translateX(5px);
+}
+
+.home-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-profile-image {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.projects-section {
+  padding: 6rem 3rem;
+  background-color: #fafafa;
+}
+
+.projects-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.projects-content h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 3rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.project-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666666;
+  margin-bottom: 1.5rem;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: background-color 0.2s;
+}
+
+.project-link:hover {
+  background-color: #000000;
+}
+
+.footer {
+  padding: 4rem 3rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
