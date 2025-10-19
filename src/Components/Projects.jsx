@@ -13,4 +13,21 @@ const Projects = () => {
       link: 'https://github.com/example/taskmanager'
     }
   ];
+  return (
+    <section id="projects" className="projects-section">
+      <div className="projects-content">
+        <h2>Projects</h2>
+        <div className="projects-grid">
+          {projects.map((project, index) => (
+            <ProjectCard
+              key={index}
+              title={project.title}
+              description={project.description}
+              link={project.link}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+    );
 };
