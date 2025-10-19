@@ -1,4 +1,4 @@
-import ProjectCard from './ProjectCard';
+import ProjectCard from './ProjectsCard';
 
 const Projects = () => {
   const projects = [
@@ -29,5 +29,7 @@ const Projects = () => {
         </div>
       </div>
     </section>
-    );
+  );
 };
+
+export default Projects;
